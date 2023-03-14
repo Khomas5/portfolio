@@ -97,6 +97,9 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
+.proj-imgbx{
+  overflow: hidden;
+}
 nav.navbar a.navbar-brand {
     width: 9%;
 }
@@ -430,6 +433,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  width: 420px;
+  height: 300px;
+  cursor: pointer;
 }
 .proj-imgbx::before {
   content: "";
@@ -548,6 +554,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover::before {
   width: 100%;
+}
+.contact .row .col {
+  padding: 0 5px;
 }
 
 /************ Footer Css ************/

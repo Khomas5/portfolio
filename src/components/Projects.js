@@ -5,6 +5,10 @@ import colorSharp2 from "../assets/images/color-sharp2.png";
 import projImg1 from "../assets/images/project-img1.png";
 import projImg2 from "../assets/images/project-img2.png";
 import projImg3 from "../assets/images/project-img3.png";
+import projImg4 from "../assets/images/project-img4.png";
+import projImg5 from "../assets/images/project-img5.png";
+import projImg6 from "../assets/images/project-img6.png";
+
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -16,28 +20,34 @@ const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Cluster",
+      title: "Analityco",
       description: "front-end development",
       imgUrl: projImg2,
     },
 
     {
-      title: "Cluster",
+      title: "iMedical",
       description: "front-end development",
       imgUrl: projImg3,
     },
 
     {
-      title: "Cluster",
-      description: "front-end development",
-      imgUrl: projImg1,
+      title: "JS Games",
+      description: "Javascript",
+      imgUrl: projImg4,
     },
 
     {
-      title: "Cluster",
+      title: "Omnifood",
       description: "front-end development",
-      imgUrl: projImg2,
+      imgUrl: projImg5,
     },
+    
+    {
+        title: "Nexter",
+        description: "front-end development",
+        imgUrl: projImg6,
+      },
   ];
 
   return (
@@ -90,9 +100,9 @@ const Projects = () => {
                   </Row>
                 </Tab.Pane>
 
-                <Tab.Pane eventKey="second">lorem</Tab.Pane>
+                <Tab.Pane eventKey="second">Aliquam finibus felis quis egestas consequat. Fusce posuere, nisl et pharetra molestie, ex libero aliquet eros, eget posuere nibh felis fermentum leo. Praesent vehicula, neque nec varius volutpat, metus magna dapibus nulla, at scelerisque sem odio in purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse id massa fringilla, sodales tellus vitae, lobortis turpis. Aenean auctor magna sed dolor congue fringilla. Nulla vel gravida magna.</Tab.Pane>
 
-                <Tab.Pane eventKey="third">lorem</Tab.Pane>
+                <Tab.Pane eventKey="third">Aliquam finibus felis quis egestas consequat. Fusce posuere, nisl et pharetra molestie, ex libero aliquet eros, eget posuere nibh felis fermentum leo. Praesent vehicula, neque nec varius volutpat, metus magna dapibus nulla, at scelerisque sem odio in purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse id massa fringilla, sodales tellus vitae, lobortis turpis. Aenean auctor magna sed dolor congue fringilla. Nulla vel gravida magna.</Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>
