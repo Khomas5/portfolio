@@ -354,6 +354,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+/* .skill-bx .item img{
+ height: 100px !important;
+ width: 150px;
+} */
 
 /************ Projects Css ************/
 .project {
@@ -433,8 +437,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
-  width: 420px;
-  height: 300px;
+  /* width: 420px; */
+  /* height: 300px;  */
   cursor: pointer;
 }
 .proj-imgbx::before {
@@ -559,9 +563,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 5px;
 }
 
-item{
-  max-width: 200px;
-}
+
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;

@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 
-import logo from "../assets/images/logo.svg";
+import logo from "../assets/images/log.png";
 import navIcon1 from '../assets/images/nav-icon1.svg';
 import navIcon2 from '../assets/images/nav-icon2.png';
 import navIcon3 from '../assets/images/nav-icon3.svg';

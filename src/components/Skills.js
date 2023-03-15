@@ -1,12 +1,12 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-// import meter1 from "../assets/images/meter1.svg";
 import meter1 from "../assets/images/meter1.png";
-// import meter2 from "../assets/images/meter2.svg";
 import meter2 from "../assets/images/meter2.png";
-// import meter3 from "../assets/images/meter3.svg";
 import meter3 from "../assets/images/meter3.png";
+import meter4 from "../assets/images/meter4.png";
+import meter5 from "../assets/images/meter5.png";
+import meter6 from "../assets/images/meter6.png";
 import colorSharp from "../assets/images/color-sharp.png";
 
 import 'animate.css';
@@ -22,7 +22,7 @@ const Skills = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 4,
+      items: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -63,19 +63,27 @@ const Skills = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="img" />
-                  <h5>Web Development</h5>
+                  <h5>HTML5</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="img" />
-                  <h5>graphic design</h5>
+                  <h5>CSS5</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="img" />
-                  <h5>Wpment</h5>
+                  <h5>Javascript</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="img" />
-                  <h5>Web Development</h5>
+                  <img src={meter4} alt="img" />
+                  <h5>Bootstrap</h5>
+                </div>
+                <div className="item">
+                  <img src={meter5} alt="img" />
+                  <h5>React</h5>
+                </div>
+                <div className="item">
+                  <img src={meter6} alt="img" />
+                  <h5>GitHub</h5>
                 </div>
               </Carousel>
             </div>
