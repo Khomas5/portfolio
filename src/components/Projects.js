@@ -18,35 +18,46 @@ const Projects = () => {
       title: "Cluster",
       description: "front-end development",
       imgUrl: projImg1,
+      url: 'https://khomas5.github.io/cluster/',
+      
     },
     {
       title: "Analityco",
       description: "front-end development",
       imgUrl: projImg2,
+      url: 'https://khomas5.github.io/cluster/',
+
     },
 
     {
       title: "iMedical",
       description: "front-end development",
       imgUrl: projImg3,
+      url: 'https://khomas5.github.io/iMedical/index.html'
     },
 
     {
       title: "JS Games",
       description: "Javascript",
       imgUrl: projImg4,
+      url: 'https://khomas5.github.io/JS-games/',
+
     },
 
     {
       title: "Omnifood",
       description: "front-end development",
       imgUrl: projImg5,
+      url: 'https://khomas5.github.io/omnifood-project/',
+
     },
     
     {
         title: "Nexter",
         description: "front-end development",
         imgUrl: projImg6,
+      url: 'https://khomas5.github.io/cluster/',
+
       },
   ];
 
