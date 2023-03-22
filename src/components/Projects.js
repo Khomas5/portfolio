@@ -25,7 +25,7 @@ const Projects = () => {
       title: "Analityco",
       description: "front-end development",
       imgUrl: projImg2,
-      url: 'https://khomas5.github.io/cluster/',
+      url: 'https://khomas5.github.io/Analytico/',
 
     },
 
@@ -33,7 +33,7 @@ const Projects = () => {
       title: "iMedical",
       description: "front-end development",
       imgUrl: projImg3,
-      url: 'https://khomas5.github.io/iMedical/index.html'
+      url: 'https://khomas5.github.io/iMedical/'
     },
 
     {
@@ -56,7 +56,7 @@ const Projects = () => {
         title: "Nexter",
         description: "front-end development",
         imgUrl: projImg6,
-      url: 'https://khomas5.github.io/cluster/',
+      url: 'https://khomas5.github.io/Nexter/',
 
       },
   ];
