@@ -8,6 +8,7 @@ import projImg3 from "../assets/images/project-img3.png";
 import projImg4 from "../assets/images/project-img4.png";
 import projImg5 from "../assets/images/project-img5.png";
 import projImg6 from "../assets/images/project-img6.png";
+import projImg7 from "../assets/images/project-img7.png";
 
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -41,6 +42,13 @@ const Projects = () => {
       description: "Javascript",
       imgUrl: projImg4,
       url: 'https://khomas5.github.io/JS-games/',
+
+    },
+    {
+      title: "Epic-Play",
+      description: "Webflow",
+      imgUrl: projImg7,
+    url: 'https://epic-play-8a0a06.webflow.io',
 
     },
 

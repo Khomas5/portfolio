@@ -7,6 +7,7 @@ import meter3 from "../assets/images/meter3.png";
 import meter4 from "../assets/images/meter4.png";
 import meter5 from "../assets/images/meter5.png";
 import meter6 from "../assets/images/meter6.png";
+import meter7 from "../assets/images/meter7.png";
 import colorSharp from "../assets/images/color-sharp.png";
 
 import 'animate.css';
@@ -80,6 +81,10 @@ const Skills = () => {
                 <div className="item">
                   <img src={meter5} alt="img" />
                   <h5>React</h5>
+                </div>
+                <div className="item">
+                  <img src={meter7} alt="img" />
+                  <h5>Webflow</h5>
                 </div>
                 <div className="item">
                   <img src={meter6} alt="img" />
