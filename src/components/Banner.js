@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/images/header-img.svg";
-// import ArrowRightCircle  from 'react-bootstrap/icons';
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-// import { isVisible } from "@testing-library/user-event/dist/utils";
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -57,15 +55,14 @@ const Banner = () => {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`Hi! I'm Ana,`} 
-                      <span
-                        className="txt-rotate"
-                        dataPeriod="1000"
-                        data-rotate='[ "Web Developer"]'
-                      >
-                        <span className="wrap">{text}</span>
-                      </span>{" "}
-              
+                    {`Hi! I'm Ana,`}
+                    <span
+                      className="txt-rotate"
+                      dataPeriod="1000"
+                      data-rotate='[ "Web Developer"]'
+                    >
+                      <span className="wrap">{text}</span>
+                    </span>{" "}
                   </h1>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
@@ -77,10 +74,11 @@ const Banner = () => {
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect
                   </button>
-
+                  {/* 
                   <a href="./assets/images/Ana-Khomasuridze.pdf" download="Ana-Khomasuridze.pdf">helooo</a>
                   <a href="./assets/images/cv.pdf" download>Download the pdf</a>
                   <a href="./assets/images/cv.pdf" download="cv">Download the pdf file</a>
+                   */}
                 </div>
               )}
             </TrackVisibility>

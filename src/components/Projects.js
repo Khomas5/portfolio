@@ -19,54 +19,48 @@ const Projects = () => {
       title: "Cluster",
       description: "front-end development",
       imgUrl: projImg1,
-      url: 'https://khomas5.github.io/cluster/',
-      
+      url: "https://khomas5.github.io/cluster/",
     },
     {
       title: "Analityco",
       description: "front-end development",
       imgUrl: projImg2,
-      url: 'https://khomas5.github.io/Analytico/',
-
+      url: "https://khomas5.github.io/Analytico/",
     },
 
     {
       title: "iMedical",
       description: "front-end development",
       imgUrl: projImg3,
-      url: 'https://khomas5.github.io/iMedical/'
+      url: "https://khomas5.github.io/iMedical/",
     },
 
     {
       title: "JS Games",
       description: "Javascript",
       imgUrl: projImg4,
-      url: 'https://khomas5.github.io/JS-games/',
-
+      url: "https://khomas5.github.io/JS-games/",
     },
     {
       title: "Epic-Play",
       description: "Webflow",
       imgUrl: projImg7,
-    url: 'https://epic-play-8a0a06.webflow.io',
-
+      url: "https://epic-play-8a0a06.webflow.io",
     },
 
     {
       title: "Omnifood",
       description: "front-end development",
       imgUrl: projImg5,
-      url: 'https://khomas5.github.io/omnifood-project/',
-
+      url: "https://khomas5.github.io/omnifood-project/",
     },
-    
-    {
-        title: "Nexter",
-        description: "front-end development",
-        imgUrl: projImg6,
-      url: 'https://khomas5.github.io/Nexter/',
 
-      },
+    {
+      title: "Nexter",
+      description: "front-end development",
+      imgUrl: projImg6,
+      url: "https://khomas5.github.io/Nexter/",
+    },
   ];
 
   return (
@@ -74,9 +68,13 @@ const Projects = () => {
       <Container>
         <Row>
           <Col>
-          <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__flipInX" : ""}>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__flipInX" : ""
+                  }
+                >
                   <h2>Projects</h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -92,7 +90,8 @@ const Projects = () => {
                     blandit. Nullam gravida tincidunt ullamcorper. Praesent
                     scelerisque tempor tortor ut fermentum.
                   </p>
-                </div>}
+                </div>
+              )}
             </TrackVisibility>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
@@ -119,9 +118,27 @@ const Projects = () => {
                   </Row>
                 </Tab.Pane>
 
-                <Tab.Pane eventKey="second">Aliquam finibus felis quis egestas consequat. Fusce posuere, nisl et pharetra molestie, ex libero aliquet eros, eget posuere nibh felis fermentum leo. Praesent vehicula, neque nec varius volutpat, metus magna dapibus nulla, at scelerisque sem odio in purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse id massa fringilla, sodales tellus vitae, lobortis turpis. Aenean auctor magna sed dolor congue fringilla. Nulla vel gravida magna.</Tab.Pane>
+                <Tab.Pane eventKey="second">
+                  Aliquam finibus felis quis egestas consequat. Fusce posuere,
+                  nisl et pharetra molestie, ex libero aliquet eros, eget
+                  posuere nibh felis fermentum leo. Praesent vehicula, neque nec
+                  varius volutpat, metus magna dapibus nulla, at scelerisque sem
+                  odio in purus. Interdum et malesuada fames ac ante ipsum
+                  primis in faucibus. Suspendisse id massa fringilla, sodales
+                  tellus vitae, lobortis turpis. Aenean auctor magna sed dolor
+                  congue fringilla. Nulla vel gravida magna.
+                </Tab.Pane>
 
-                <Tab.Pane eventKey="third">Aliquam finibus felis quis egestas consequat. Fusce posuere, nisl et pharetra molestie, ex libero aliquet eros, eget posuere nibh felis fermentum leo. Praesent vehicula, neque nec varius volutpat, metus magna dapibus nulla, at scelerisque sem odio in purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse id massa fringilla, sodales tellus vitae, lobortis turpis. Aenean auctor magna sed dolor congue fringilla. Nulla vel gravida magna.</Tab.Pane>
+                <Tab.Pane eventKey="third">
+                  Aliquam finibus felis quis egestas consequat. Fusce posuere,
+                  nisl et pharetra molestie, ex libero aliquet eros, eget
+                  posuere nibh felis fermentum leo. Praesent vehicula, neque nec
+                  varius volutpat, metus magna dapibus nulla, at scelerisque sem
+                  odio in purus. Interdum et malesuada fames ac ante ipsum
+                  primis in faucibus. Suspendisse id massa fringilla, sodales
+                  tellus vitae, lobortis turpis. Aenean auctor magna sed dolor
+                  congue fringilla. Nulla vel gravida magna.
+                </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>
