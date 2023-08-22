@@ -9,6 +9,7 @@ import projImg4 from "../assets/images/project-img4.png";
 import projImg5 from "../assets/images/project-img5.png";
 import projImg6 from "../assets/images/project-img6.png";
 import projImg7 from "../assets/images/project-img7.png";
+import projImg8 from "../assets/images/project-img8.png";
 
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -26,6 +27,12 @@ const Projects = () => {
       description: "front-end development",
       imgUrl: projImg2,
       url: "https://khomas5.github.io/Analytico/",
+    },
+    {
+      title: "Meet Up",
+      description: "React App",
+      imgUrl: projImg8,
+      url: "https://meet-up-2nyp.onrender.com",
     },
 
     {
