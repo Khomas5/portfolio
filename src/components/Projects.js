@@ -10,6 +10,7 @@ import projImg5 from "../assets/images/project-img5.png";
 import projImg6 from "../assets/images/project-img6.png";
 import projImg7 from "../assets/images/project-img7.png";
 import projImg9 from "../assets/images/project-img9.png";
+import projImg10 from "../assets/images/project-img10.png";
 
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -28,13 +29,6 @@ const Projects = () => {
       imgUrl: projImg2,
       url: "https://khomas5.github.io/Analytico/",
     },
-    {
-      title: "Travel",
-      description: "React Project",
-      imgUrl: projImg9,
-      url: "https://khomas5.github.io/Travel/",
-    },
-
     {
       title: "iMedical",
       description: "front-end development",
@@ -70,6 +64,21 @@ const Projects = () => {
     },
   ];
 
+  const reactProjects=[
+    {
+      title: "HooBank",
+      description: "Vite + React Project with TailwindCSS",
+      imgUrl: projImg10,
+      url: "https://bank-digital.netlify.app",
+    },
+    {
+      title: "Travel",
+      description: "React Project",
+      imgUrl: projImg9,
+      url: "https://khomas5.github.io/Travel/",
+    },
+  ];
+
   return (
     <section className="project" id="projects">
       <Container>
@@ -84,18 +93,13 @@ const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris quis magna sed sapien sagittis volutpat et id sem.
-                    Donec rhoncus orci sit amet pharetra faucibus. Proin id
-                    tellus quis risus tempus venenatis a ac neque. In bibendum
-                    urna at tortor bibendum, vitae interdum lectus tempor. Sed
-                    ante purus, mattis at leo a, malesuada luctus neque. Integer
-                    gravida consectetur neque, eu tristique velit pretium a.
-                    Aliquam mollis congue ex vel iaculis. Sed consequat
-                    facilisis mattis. Sed justo tortor, placerat et feugiat
-                    finibus, auctor vel orci. Curabitur tempus augue at dapibus
-                    blandit. Nullam gravida tincidunt ullamcorper. Praesent
-                    scelerisque tempor tortor ut fermentum.
+                  I designed and developed a responsive portfolio website to 
+                  showcase my skills, experience, and projects. The main 
+                  objective was to create an intuitive and visually appealing
+                   interface that highlights my abilities as a front-end 
+                   developer. Tab One shows mostly projects based on plain HTML5, 
+                   CSS3/SCSS, Javascript and one of them is built by in-browser 
+                   design tool Webflow. Tab Two concentrate on React and its projects. 
                   </p>
                 </div>
               )}
@@ -110,7 +114,7 @@ const Projects = () => {
                   <Nav.Link eventKey="first">Tab one</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Tab Two</Nav.Link>
+                  <Nav.Link eventKey="second">Tab Two | React</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="third">Tab Three</Nav.Link>
@@ -126,25 +130,15 @@ const Projects = () => {
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="second">
-                  Aliquam finibus felis quis egestas consequat. Fusce posuere,
-                  nisl et pharetra molestie, ex libero aliquet eros, eget
-                  posuere nibh felis fermentum leo. Praesent vehicula, neque nec
-                  varius volutpat, metus magna dapibus nulla, at scelerisque sem
-                  odio in purus. Interdum et malesuada fames ac ante ipsum
-                  primis in faucibus. Suspendisse id massa fringilla, sodales
-                  tellus vitae, lobortis turpis. Aenean auctor magna sed dolor
-                  congue fringilla. Nulla vel gravida magna.
+                <Row>
+                    {reactProjects.map((project, index) => {
+                      return <ProjectCard key={index} {...project} />;
+                    })}
+                  </Row>
                 </Tab.Pane>
 
                 <Tab.Pane eventKey="third">
-                  Aliquam finibus felis quis egestas consequat. Fusce posuere,
-                  nisl et pharetra molestie, ex libero aliquet eros, eget
-                  posuere nibh felis fermentum leo. Praesent vehicula, neque nec
-                  varius volutpat, metus magna dapibus nulla, at scelerisque sem
-                  odio in purus. Interdum et malesuada fames ac ante ipsum
-                  primis in faucibus. Suspendisse id massa fringilla, sodales
-                  tellus vitae, lobortis turpis. Aenean auctor magna sed dolor
-                  congue fringilla. Nulla vel gravida magna.
+                I plan to further enhance the website by integrating additional projects, optimizing for accessibility, and exploring new front-end technologies to stay current with industry trends.
                 </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
@@ -159,5 +153,7 @@ const Projects = () => {
     </section>
   );
 };
+
+
 
 export default Projects;
